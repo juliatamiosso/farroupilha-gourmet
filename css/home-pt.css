@@ -17,8 +17,9 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Playfair Display', serif;
 }
 
-header {
+.topo {
     height: 3.5em;
+    background-color: aqua;
 }
 
 .conteudo {
@@ -30,7 +31,7 @@ header {
     align-items: center; /*alinhar na vertical!!! (usar junto com display flex)*/
 }
 
-header ul {
+.conteudo ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -86,6 +87,7 @@ li {
     position: relative;
     text-decoration: none;
     color: aliceblue;
+    font-size: 0.9em;
 }
 
 main {
