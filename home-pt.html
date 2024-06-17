@@ -77,7 +77,16 @@
             document.querySelectorAll('.menu .dropdown > .item').forEach(function(item) {
                 item.addEventListener('click', function(event) {
                     event.preventDefault();
-                    this.parentElement.classList.toggle('active');
+
+                    // Fecha todos os dropdowns abertos
+                    document.querySelectorAll('.menu .dropdown').forEach(function(dropdown) {
+                        if (dropdown !== item.parentElement) {
+                            dropdown.classList.remove('active');
+                        }
+                    });
+
+                    // Abre ou fecha o dropdown clicado
+                    item.parentElement.classList.toggle('active');
                 });
             });
         });

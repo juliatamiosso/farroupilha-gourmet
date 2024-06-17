@@ -104,40 +104,18 @@ li {
     margin: 5px 0;
 }
 
+.dropdown .submenu li:hover {
+    background-color: rgb(39, 45, 61);
+}
+
 .dropdown .submenu li a {
     color: aliceblue;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .dropdown.active .submenu {
     display: block;
-}
-
-main {
-    text-align: center;
-    height: 30em;
-    margin-top: 10%;
-}
-
-.titulo {
-    font-size: 3.5em;
-    margin-bottom: 0.4em;
-}
-
-.subtexto {
-    font-size: 1.1em;
-}
-
-.principal {
-    background-color: aliceblue;
-    width: 100%;
-    height: 800px;
-    margin-top: 20%;
-}
-
-.principal h2 {
-    color: rgb(42, 40, 49);
 }
 
 .dropdown.active .item::after {
@@ -166,3 +144,30 @@ main {
     transform-origin: left;
     transform: scaleX(1);
 }
+
+main {
+    text-align: center;
+    height: 30em;
+    margin-top: 10%;
+}
+
+.titulo {
+    font-size: 3.5em;
+    margin-bottom: 0.4em;
+}
+
+.subtexto {
+    font-size: 1.1em;
+}
+
+.principal {
+    background-color: aliceblue;
+    width: 100%;
+    height: 800px;
+    margin-top: 20%;
+}
+
+.principal h2 {
+    color: rgb(42, 40, 49);
+}
+
