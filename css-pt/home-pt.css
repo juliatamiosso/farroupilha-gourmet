@@ -228,3 +228,33 @@ main {
  }
 
 /* search bar */
+
+.mostruario {
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.mostra-card {
+    background-color: blue;
+    width: 30%;
+    height: 17em;
+    border-radius: 15px;
+
+    transition: transform 0.3s ease-in-out; 
+    position: relative;
+}
+
+.mostra-card:hover {
+    transform: scale(1.05);
+    position: relative; 
+    z-index: 1; 
+}
+
+#buffet {
+    border: 1px solid rgb(42, 40, 49);
+}
+
