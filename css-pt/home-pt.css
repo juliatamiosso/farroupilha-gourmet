@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
     background-image: url("/img/farroupilha-rs.jpg");
@@ -14,7 +15,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Source Serif Pro';
 }
 
 .topo {
@@ -162,7 +163,8 @@ main {
 
 .titulo {
     font-size: 3.5em;
-    margin-bottom: 0.4em;
+    margin-bottom: 0.3em;
+    font-weight: 600;
 }
 
 .subtexto {
@@ -183,4 +185,12 @@ main {
 
 .principal h2 {
     color: rgb(42, 40, 49);
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.linha-header-principal {
+    background-color: rgb(42, 40, 49); 
+    height: 5px;
 }
