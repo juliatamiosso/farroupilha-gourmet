@@ -322,3 +322,7 @@ main {
     background-size: 180%;
     background-position: 40% 60%;
 }
+
+#imgbandeira {
+    width: 1.5em;
+}
