@@ -83,7 +83,7 @@ li {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.item {
+.menu-item {
     position: relative;
     text-decoration: none;
     color: aliceblue;
@@ -128,15 +128,15 @@ li {
     width: max-content;
 }
 
-.dropdown.active .item::after {
+.dropdown.active .menu-item::after {
     content: " ▴";
 }
 
-.dropdown .item::after {
+.dropdown .menu-item::after {
     content: " ▾";
 }
 
-.item::before {
+.menu-item::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -150,7 +150,7 @@ li {
     transition: transform .3s ease-in-out;
 }
 
-.item:hover::before {
+.menu-item:hover::before {
     transform-origin: left;
     transform: scaleX(1);
 }
@@ -230,7 +230,6 @@ main {
 /* search bar */
 
 .mostruario {
-    background-color: coral;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -249,12 +248,13 @@ main {
     transition: transform 0.3s ease-in-out; 
     position: relative;
     background-blend-mode:soft-light;
-    background-color: rgba(45, 42, 48, 0.637);
+    background-color: rgba(45, 42, 48, 0.801);
     padding: 4.5em 0;
 }
 
 .mostra-card p {
     margin: 0;
+    text-shadow: rgb(40, 37, 43) 1px 0 10px;
 }
 
 .mostra-card:hover {
@@ -266,7 +266,7 @@ main {
 #alacarte {
     background-image: url(/img/alacarte.jpg);
     background-repeat: no-repeat;
-    background-size: 135%;
+    background-size: 140%;
 }
 
 .card-btn {
@@ -278,8 +278,8 @@ main {
     color: rgb(255, 255, 255);
     font-size: 0.6em;
     font-weight: 500;
-    /*box-shadow: 0 5px 10px #888888;*/
     background-color: rgb(75, 80, 129);
+    box-shadow: rgb(40, 37, 43) 1px 0 10px;
 }
 
 .card-btn:hover {
