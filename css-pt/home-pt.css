@@ -175,12 +175,17 @@ main {
     margin-left: 1em;
     font-size: 0.8em;
     color: rgba(151, 151, 151, 0.842);
+    text-decoration: none;
+}
+
+.fonte:hover {
+    color: rgba(180, 180, 180, 0.842);
 }
 
 .principal {
     background-color: rgb(245, 251, 255);
     width: 100%;
-    height: 840px;
+    height: 838px;
     color: rgb(42, 40, 49);
 }
 
@@ -212,20 +217,14 @@ main {
 }
 
 .input-text:focus{
-    box-shadow: 0px 0px 0px;
-    border-color:rgb(94, 101, 165);
+    box-shadow: 0 0 10px 3px rgba(42, 40, 49, 0.322);
+    /*border-color:rgba(42, 40, 49, 0.253);*/
     outline: 0px;
 }
 
-.form-control {
-    border: 1px solid rgb(94, 101, 165);
-}
-
-.btn-outline-warning {
-    border: 1px solid rgb(94, 101, 165);
-}
  .btn-lg {
     background-color: rgb(188, 192, 230);
+    border-radius: 0 10px 10px 0;
  }
 
 /* search bar */
@@ -326,4 +325,23 @@ main {
 #imgbandeira {
     width: 1.5em;
     border-radius: 3px;
+}
+
+.pesquisa {
+    background-color: rgb(66, 71, 112);
+    width: 100%;
+    height: 400px;
+    color: rgb(245, 251, 255);
+}
+
+.pesquisa h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.pesquisa p {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
 }
