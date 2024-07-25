@@ -192,7 +192,8 @@ main {
 
 .principal p {
     text-align: center;
-    font-size: 1.1em;
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 .linha-header-principal {
@@ -263,12 +264,6 @@ main {
     z-index: 1; 
 }
 
-#alacarte {
-    background-image: url(/img/alacarte.jpg);
-    background-repeat: no-repeat;
-    background-size: 140%;
-}
-
 .card-btn {
     cursor: pointer;
     border-radius: 2em;
@@ -290,3 +285,27 @@ main {
     background-color: rgb(66, 71, 112);
 }
 
+#alacarte {
+    background-image: url(/img/alacarte2.jpg);
+    background-repeat: no-repeat;
+    background-size: 105%;
+}
+
+#churras {
+    background-image: url(/img/churras.jpg);
+    background-repeat: no-repeat;
+    background-size: 130%;
+}
+
+#colonial {
+    background-image: url(/img/colonia.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+#pizzarias {
+    background-image: url(/img/pizza.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
