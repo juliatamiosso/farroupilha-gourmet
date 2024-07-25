@@ -319,10 +319,11 @@ main {
 #vinicola {
     background-image: url(/img/vinicola.jpg);
     background-repeat: no-repeat;
-    background-size: 180%;
-    background-position: 40% 60%;
+    background-size: 170%;
+    background-position: 50% 50%;
 }
 
 #imgbandeira {
     width: 1.5em;
+    border-radius: 3px;
 }
