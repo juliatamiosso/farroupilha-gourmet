@@ -204,6 +204,7 @@ main {
 .linha-header-principal {
     background-color: rgb(42, 40, 49); 
     height: 5px;
+    border: 0;
 }
 
 /* search bar */
@@ -214,6 +215,10 @@ main {
 
 .btn:hover{
     color:#fff;
+}
+
+.input-text {
+    border: 1px solid #6C757D;
 }
 
 .input-text:focus{
@@ -330,7 +335,7 @@ main {
 .pesquisa {
     background-color: rgb(66, 71, 112);
     width: 100%;
-    height: 400px;
+    height: 278px;
     color: rgb(245, 251, 255);
 }
 
@@ -344,4 +349,62 @@ main {
     text-align: center;
     font-size: 1.2em;
     font-weight: 500;
+}
+
+.moscatel {
+    /*background-color: rgb(245, 251, 255);*/
+    background-color: chartreuse;
+    width: 100%;
+    height: 450px;
+    color: rgb(42, 40, 49);
+    padding-top: 4em;
+    padding-left: 8em;
+    padding-right: 8em;
+}
+
+.moscatel h2 {
+    font-size: 2.5em;
+    font-weight: 600;
+    line-height: 0.9;
+}
+
+.moscatel p {
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1;
+    text-align: justify;
+}
+
+#moscatel {
+    width: 30em;
+    border-radius: 25px;
+}
+
+.secoesmoscatel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: blue;
+}
+
+.secao1 {
+    height: max-content;
+}
+
+.secao2 {
+    padding-top: 1em;
+    height: max-content;
+    margin-left: 3em;
+}
+
+.secao2 button {
+    box-shadow: none;
+    font-size: 0.8em;
+    width: 10em;
+    margin-top: 1em;
+}
+
+.rodape {
+    background-color: #6C757D;
+    height: 400px;
 }
