@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    background-image: url("/img/farroupilha-rs.jpg");
+    background-image: url('/projeto-integrador/img/farroupilha-rs.jpg');
     background-blend-mode: multiply;
     background-color: rgb(53, 50, 57);
     background-repeat: no-repeat;
@@ -290,38 +290,38 @@ main {
 }
 
 #alacarte {
-    background-image: url(img/alacarte.jpg);
+    background-image: url('/projeto-integrador/img/alacarte.jpg');
     background-repeat: no-repeat;
     background-size: 140%;
     background-position: 40% 60%;
 }
 
 #churras {
-    background-image: url(img/churras.jpg);
+    background-image: url('/projeto-integrador/img/churras.jpg');
     background-repeat: no-repeat;
     background-size: 130%;
 }
 
 #colonial {
-    background-image: url(img/colonia.jpg);
+    background-image: url('/projeto-integrador/img/colonia.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 #padaria {
-    background-image: url(img/padaria.jpg);
+    background-image: url('/projeto-integrador/img/padaria.jpg');
     background-repeat: no-repeat;
     background-size: 127%;
 }
 
 #pizzarias {
-    background-image: url(img/pizza.jpg);
+    background-image: url('/projeto-integrador/img/pizza.jpg');
     background-repeat: no-repeat;
     background-size: 120%;
 }
 
 #vinicola {
-    background-image: url(img/vinicola.jpg);
+    background-image: url('/projeto-integrador/img/vinicola.jpg');
     background-repeat: no-repeat;
     background-size: 170%;
     background-position: 50% 50%;
