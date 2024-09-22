@@ -262,16 +262,21 @@ main {
 }
 
 .card-btn {
-    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5em 1em;
     border-radius: 2em;
     border: 0;
     height: 30px;
     width: 7em;
+    line-height: 1.2;
     color: rgb(255, 255, 255);
     font-size: 0.6em;
     font-weight: 500;
     background-color: rgb(75, 80, 129);
     box-shadow: rgb(40, 37, 43) 1px 0 10px;
+    cursor: pointer;
 }
 
 .card-btn:hover {
@@ -392,11 +397,12 @@ main {
     margin-left: 3em;
 }
 
-.secao2 button {
+.secao2 a {
     box-shadow: none;
     font-size: 0.8em;
     width: 10em;
     margin-top: 1em;
+    line-height: 1.2;
 }
 
 #linhaheaderrodape {
