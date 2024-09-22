@@ -76,13 +76,6 @@ li {
     display: inline-block;
 }
 
-.marca {
-    display: inline-flex;
-    margin-left: 0.3em;
-    font-size: 1.5em;
-    font-family: 'Times New Roman', Times, serif;
-}
-
 .menu-item {
     position: relative;
     text-decoration: none;
@@ -352,7 +345,9 @@ main {
 }
 
 .moscatel {
-    background-color: rgb(245, 251, 255);
+    background-color: rgb(255, 245, 245);
+    background-image: url('/projeto-integrador/img/padraobg.jpg');
+    background-blend-mode:luminosity;
     width: 100%;
     height: 450px;
     color: rgb(42, 40, 49);
@@ -365,6 +360,7 @@ main {
     font-size: 2.5em;
     font-weight: 600;
     line-height: 0.9;
+    
 }
 
 .moscatel p {
@@ -372,6 +368,7 @@ main {
     font-weight: 500;
     line-height: 1.1;
     text-align: justify;
+    background-color: rgb(255, 255, 255);
 }
 
 #moscatel {
@@ -402,7 +399,7 @@ main {
     margin-top: 1em;
 }
 
-#aideus {
+#linhaheaderrodape {
     margin: 0;
     margin-top: -5px;
 }
