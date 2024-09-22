@@ -414,7 +414,7 @@ main {
 
 .rodape {
     background-color: rgb(66, 71, 112);
-    height: 400px;
+    height: 360px;
     display: flex;
     padding-top: 3em;
     justify-content: center;
@@ -430,12 +430,13 @@ main {
 }
 
 .nomerodape {
-    margin-top: 3.7em;
+    margin-top: 4.2em;
     margin-left: 0.6em;
 }
 
 .nomerodape h1 {
     font-weight: 600;
+    font-size: 2.3em;
 }
 
 .rodape p {
