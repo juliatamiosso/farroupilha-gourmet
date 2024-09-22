@@ -410,7 +410,59 @@ main {
     margin-top: -5px;
 }
 
+/*RODAPÉ*/
+
 .rodape {
     background-color: rgb(66, 71, 112);
     height: 400px;
+    display: flex;
+    padding-top: 3em;
+    justify-content: center;
+}
+
+.logomarca {
+    display: inline-flex;
+    width: 400px;
+}
+
+.logomarca img {
+    width: 10em;
+}
+
+.nomerodape {
+    margin-top: 3.7em;
+    margin-left: 0.6em;
+}
+
+.nomerodape h1 {
+    font-weight: 600;
+}
+
+.rodape p {
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
+.inside {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.inside ul {
+    display:inline-table;
+    line-height: 1.7;
+}
+
+.inside a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.inside a:hover {
+    color: rgb(213, 217, 219);
+}
+
+.inside .bold {
+    font-weight: bold;
 }
