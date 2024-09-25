@@ -168,7 +168,7 @@ main {
 .principal {
     background-color: rgb(245, 251, 255);
     width: 100%;
-    height: 1080px;
+    height: 1000px;
     color: rgb(42, 40, 49);
 }
 
@@ -283,4 +283,68 @@ main {
 
 #ristoria {
 
+}
+
+
+/*RODAPÉ*/
+
+#linhaheaderrodape {
+    margin: 0;
+    margin-top: -5px;
+}
+
+.rodape {
+    background-color: rgb(66, 71, 112);
+    height: 360px;
+    display: flex;
+    padding-top: 3em;
+    justify-content: center;
+}
+
+.logomarca {
+    display: inline-flex;
+    width: 400px;
+}
+
+.logomarca img {
+    width: 10em;
+}
+
+.nomerodape {
+    margin-top: 4.2em;
+    margin-left: 0.6em;
+}
+
+.nomerodape h1 {
+    font-weight: 600;
+    font-size: 2.3em;
+}
+
+.rodape p {
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
+.inside {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.inside ul {
+    display:inline-table;
+    line-height: 1.7;
+}
+
+.inside a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.inside a:hover {
+    color: rgb(213, 217, 219);
+}
+
+.inside .bold {
+    font-weight: bold;
 }
