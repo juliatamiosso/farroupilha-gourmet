@@ -281,7 +281,10 @@ main {
 }
 
 #quierocafe {
-
+    background-image: url('/projeto-integrador/img/quierocafe.jpg');
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: center;
 }
 
 #antonielle {
@@ -293,7 +296,10 @@ main {
 }
 
 #ristoria {
-
+    background-image: url('/projeto-integrador/img/ristoria.jpg');
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: center;
 }
 
 
