@@ -108,31 +108,18 @@ main {
     display: flex;
     justify-content: center;
     align-items: flex-start; /* Alinha os elementos ao topo */
-    gap: 1em;
+    gap: 1.5em;
     width: 100%;
 }
 
 .secao {
     padding: 1em;
-    color: white;
 }
 
 .secao1 {
-    background-color: red;
     width: 50%;
     text-align: justify;
     height: max-content;
-}
-
-.secao2 {
-    background-color: blue;
-    width: 40%;
-    text-align: justify;
-    height: max-content;
-}
-
-.secao2 h4 {
-    color: rgb(69, 74, 117);
 }
 
 .secaoimg {
@@ -140,10 +127,69 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aqua;
 }
 
 .secaoimg img {
     max-width: 100%;
     height: auto;
+    max-height: 400px;
+}
+
+.secao2 {
+    width: 40%;
+    text-align: justify;
+    height: max-content;
+}
+
+.secao2 h4 {
+    color: rgb(69, 74, 117);
+    font-weight: 600;
+}
+
+span {
+    font-weight: 500;
+}
+
+.informacoes, .contato {
+    margin: 0;
+    padding: 0;
+    line-height: 2.5;
+    font-size: 1em;
+}
+
+.informacoes .info:nth-child(3) {
+    margin-bottom: 0.5em; /* Ajusta a margem entre 'Horário de funcionamento' e 'Segunda' */
+}
+
+.funcionamento {
+    line-height: 1.4;
+}
+
+.informacoes .info:nth-child(4) {
+    margin-top: 0.8em; /* Aumenta a distância entre 'Domingo' e 'Culinária' */
+}
+
+.btncardapio {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    border: 0;
+    height: 30px;
+    width: 7em;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    font-weight: 500;
+    background-color: rgb(75, 80, 129);
+    cursor: pointer;
+}
+
+.btncardapio:hover {
+    background-color: rgb(69, 74, 117);
+}
+
+.btncardapio:active {
+    background-color: rgb(66, 71, 112);
 }
