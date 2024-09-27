@@ -106,10 +106,10 @@ main {
 
 .container-secoes {
     display: flex;
-    justify-content: center; /* Centraliza as seções horizontalmente */
-    align-items: center; /* Centraliza as seções verticalmente, se necessário */
-    gap: 1em; /* Espaço entre as seções */
-    width: 100%; /* Garante que o container ocupe toda a largura */
+    justify-content: center;
+    align-items: flex-start; /* Alinha os elementos ao topo */
+    gap: 1em;
+    width: 100%;
 }
 
 .secao {
@@ -119,12 +119,31 @@ main {
 
 .secao1 {
     background-color: red;
-    width: 65%; /* Define a largura da primeira seção */
-    text-align: center;
+    width: 50%;
+    text-align: justify;
+    height: max-content;
 }
 
 .secao2 {
     background-color: blue;
-    width: 30%; /* Define a largura da segunda seção */
-    text-align: center;
+    width: 40%;
+    text-align: justify;
+    height: max-content;
+}
+
+.secao2 h4 {
+    color: rgb(69, 74, 117);
+}
+
+.secaoimg {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+.secaoimg img {
+    max-width: 100%;
+    height: auto;
 }
