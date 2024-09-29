@@ -115,6 +115,7 @@ main {
 
 .secao {
     padding: 1em;
+    padding-top: 0;
 }
 
 .secao1 {
@@ -134,6 +135,7 @@ main {
     max-width: 100%;
     height: auto;
     max-height: 400px;
+    border-radius: 1em;
 }
 
 .secao2 {
