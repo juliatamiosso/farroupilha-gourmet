@@ -274,6 +274,13 @@ main {
     background-position: 0% 100%;
 }
 
+#nonogiuseppe {
+    background-image: url('/projeto-integrador/img/nonogiuseppe.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 20%;
+}
+
 #caminhodotrem {
     background-image: url('/projeto-integrador/img/caminhodotrem.jpg');
     background-repeat: no-repeat;
