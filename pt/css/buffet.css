@@ -287,8 +287,8 @@ main {
 #dimoradelgusto {
     background-image: url('/projeto-integrador/img/dimoradelgusto.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+    background-size: 165%;
+    background-position: 90% 0%;
     padding-top: 3.5em; 
     padding-right: 1em;
     padding-left: 1em;
@@ -306,14 +306,15 @@ main {
 #manginis {
     background-image: url('/projeto-integrador/img/manginis.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 120%;
+    background-position: center;
 }
 
 #stefenon {
     background-image: url('/projeto-integrador/img/stefenon.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+    background-size: 120%;
+    background-position: 100% 60%;
 }
 
 
