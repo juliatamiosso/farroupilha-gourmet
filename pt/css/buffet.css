@@ -261,12 +261,6 @@ main {
     padding-top: 3.5em; /*Se nome ocupa duas linhas*/
 }
 
-#firenze {
-    background-image: url('/projeto-integrador/img/firenze.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
 #galetofeltrin {
     background-image: url('/projeto-integrador/img/galetofeltrin.jpg');
     background-repeat: no-repeat;
@@ -305,6 +299,7 @@ main {
     background-image: url('/projeto-integrador/img/donhonorioaugusto.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
     padding-top: 3.5em; 
     padding-right: 1em;
     padding-left: 1em;
