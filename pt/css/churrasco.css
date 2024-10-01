@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    background-image: url('/projeto-integrador/img/buffet.jpg');
+    background-image: url('/projeto-integrador/img/churras.jpg');
     background-blend-mode: multiply;
     background-color: rgb(53, 50, 57);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 0% 0%;
+    background-position: 50% 70%;
     color: aliceblue;
     background-size: 100%;
     font-family: 'Roboto', sans-serif;
@@ -258,7 +258,7 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     background-size: 160%;
-    padding-top: 3.5em; /*Se nome ocupa duas linhas*/
+    padding-top: 3.5em;
 }
 
 #rondacharrua {
@@ -269,62 +269,29 @@ main {
     padding-top: 3.5em;
 }
 
-#galetofeltrin {
-    background-image: url('/projeto-integrador/img/galetofeltrin.jpg');
+#quintaldaparrilla {
+    background-image: url('/projeto-integrador/img/quintaldaparrilla.jpg');
     background-repeat: no-repeat;
-    background-size: 110%;
-    background-position: 0% 100%;
+    background-size: 120%;
+    background-position: 80% 90%;
 }
 
-#nonogiuseppe {
-    background-image: url('/projeto-integrador/img/nonogiuseppe.jpg');
+#bemmio {
+    background-image: url('/projeto-integrador/img/bemmiorestaurante.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: 0% 20%;
-}
-
-#caminhodotrem {
-    background-image: url('/projeto-integrador/img/caminhodotrem.jpg');
-    background-repeat: no-repeat;
-    background-size: 135%;
-    background-position: 0% 100%;
+    background-position: 40% 100%;
+    background-size: 170%;
     padding-top: 3.5em;
     padding-right: 1em;
     padding-left: 1em;
 }
 
-#dimoradelgusto {
-    background-image: url('/projeto-integrador/img/dimoradelgusto.jpg');
+#dartora {
+    background-image: url('/projeto-integrador/img/dartora.jpg');
     background-repeat: no-repeat;
-    background-size: 165%;
-    background-position: 90% 0%;
-    padding-top: 3.5em; 
-    padding-right: 1em;
-    padding-left: 1em;
-}
-
-#donhonorioaugusto {
-    background-image: url('/projeto-integrador/img/donhonorioaugusto.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
-    padding-top: 3.5em; 
-    padding-right: 1em;
-    padding-left: 1em;
-}
-
-#manginis {
-    background-image: url('/projeto-integrador/img/manginis.jpg');
-    background-repeat: no-repeat;
-    background-size: 120%;
-    background-position: center;
-}
-
-#stefenon {
-    background-image: url('/projeto-integrador/img/stefenon.jpg');
-    background-repeat: no-repeat;
-    background-size: 120%;
-    background-position: 100% 60%;
+    background-size: 150%;
+    background-position: 30% 100%;
+    padding-top: 3.5em;
 }
 
 
