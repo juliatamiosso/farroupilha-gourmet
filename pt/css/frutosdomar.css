@@ -7,9 +7,9 @@ body {
     background-color: rgb(53, 50, 57);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: bottom 0px left 0px;
+    background-position: 30% 100%;
     color: aliceblue;
-    background-size: 100%;
+    background-size: 120%;
     font-family: 'Roboto', sans-serif;
     max-width: 1800px;
     margin: 0;
