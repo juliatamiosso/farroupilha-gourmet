@@ -301,9 +301,10 @@ main {
 }
 
 #colonial {
-    background-image: url('/projeto-integrador/img/colonia.jpg');
+    background-image: url('/projeto-integrador/img/colonial.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 170%;
+    background-position: center;
 }
 
 #padaria {

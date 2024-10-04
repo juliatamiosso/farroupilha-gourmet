@@ -7,7 +7,7 @@ body {
     background-color: rgb(53, 50, 57);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: bottom 50px left 0px;
+    background-position: bottom 100px left 0px;
     color: aliceblue;
     background-size: 100%;
     font-family: 'Roboto', sans-serif;
@@ -253,55 +253,58 @@ main {
     background-color: rgb(66, 71, 112);
 }
 
-#buttelinho {
-    background-image: url('/projeto-integrador/img/buttelinho.jpg');
+#blauthbier {
+    background-image: url('/projeto-integrador/img/blauthbier.jpg');
     background-repeat: no-repeat;
-    background-size: 140%;
-}
-
-#labelle {
-    background-image: url('/projeto-integrador/img/labelle.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: bottom 0px right 0px;
-    padding-top: 3.5em; /*Se nome ocupa duas linhas*/
-}
-
-#lavecchia {
-    background-image: url('/projeto-integrador/img/lavecchia.jpg');
-    background-repeat: no-repeat;
-    background-size: 130%;
-    background-position: right 0px;    
-}
-
-#mangiabene {
-    background-image: url('/projeto-integrador/img/mangiabene.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#quierocafe {
-    background-image: url('/projeto-integrador/img/quierocafe.jpg');
-    background-repeat: no-repeat;
-    background-size: 130%;
+    background-size: 120%;
     background-position: center;
-}
-
-#antonielle {
-    background-image: url('/projeto-integrador/img/antonielle.jpg');
-    background-repeat: no-repeat;
-    background-size: 115%;
-    background-position: bottom 0px right 0px;
     padding-top: 3.5em;
 }
 
-#ristoria {
-    background-image: url('/projeto-integrador/img/ristoria.jpg');
+#casaminaefiori {
+    background-image: url('/projeto-integrador/img/casaminaefiori.jpg');
     background-repeat: no-repeat;
-    background-size: 130%;
+    background-size: 115%;
+    background-position: 80% 0%;
+    padding-top: 3.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#beijaflor {
+    background-image: url('/projeto-integrador/img/beijaflor.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
     background-position: center;
 }
 
+#dartora {
+    background-image: url('/projeto-integrador/img/dartora.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: 30% 100%;
+    padding-top: 3.5em;
+}
+
+#brunetta {
+    background-image: url('/projeto-integrador/img/brunetta.jpg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+    padding-top: 3.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#strapazzon {
+    background-image: url('/projeto-integrador/img/strapazzon.jpg');
+    background-repeat: no-repeat;
+    background-size: 125%;
+    background-position: 90% 50%;
+    padding-top: 3.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
 
 /*RODAPÉ*/
 
