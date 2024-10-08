@@ -297,21 +297,21 @@ main {
 #kikao {
     background-image: url('/projeto-integrador/img/kikao.jpg');
     background-repeat: no-repeat;
-    background-position: 0% 0%;
-    background-size: 100%;
+    background-position: center;
+    background-size: 120%;
 }
 
 #subway {
     background-image: url('/projeto-integrador/img/subway.jpg');
     background-repeat: no-repeat;
-    background-position: 0% 0%;
-    background-size: 100%;
+    background-position: center;
+    background-size: 120%;
 }
 
 #xcalota {
-    background-image: url('/projeto-integrador/img/xcalota.jpg');
+    background-image: url('/projeto-integrador/img/xcalotaecroasonho.jpg');
     background-repeat: no-repeat;
-    background-position: 0% 0%;
+    background-position: 0% 10%;
     background-size: 100%;
 }
 
