@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    background-image: url('/projeto-integrador/img/lancherias.jpg');
+    background-image: url('/farroupilha-gourmet/img/lancherias.jpg');
     background-blend-mode: multiply;
     background-color: rgb(53, 50, 57);
     background-repeat: no-repeat;
@@ -254,14 +254,14 @@ main {
 }
 
 #americanburger {
-    background-image: url('/projeto-integrador/img/americanburger.jpg');
+    background-image: url('/farroupilha-gourmet/img/americanburger.jpg');
     background-repeat: no-repeat;
     background-position: 40% 0%;
     background-size: 150%;
 }
 
 #degustare {
-    background-image: url('/projeto-integrador/img/degustare.jpg');
+    background-image: url('/farroupilha-gourmet/img/degustare.jpg');
     background-repeat: no-repeat;
     background-position: 0% 40%;
     background-size: 100%;
@@ -271,7 +271,7 @@ main {
 }
 
 #elviajero {
-    background-image: url('/projeto-integrador/img/elviajero.jpg');
+    background-image: url('/farroupilha-gourmet/img/elviajero.jpg');
     background-repeat: no-repeat;
     background-position: 90% 0%;
     background-size: 125%;
@@ -281,35 +281,35 @@ main {
 }
 
 #farrapizzaburger {
-    background-image: url('/projeto-integrador/img/farrapizzaburger.jpg');
+    background-image: url('/farroupilha-gourmet/img/farrapizzaburger.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 110%;
 }
 
 #barretos {
-    background-image: url('/projeto-integrador/img/barretos.jpg');
+    background-image: url('/farroupilha-gourmet/img/barretos.jpg');
     background-repeat: no-repeat;
     background-position: 0% 60%;
     background-size: 100%;
 }
 
 #kikao {
-    background-image: url('/projeto-integrador/img/kikao.jpg');
+    background-image: url('/farroupilha-gourmet/img/kikao.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 120%;
 }
 
 #subway {
-    background-image: url('/projeto-integrador/img/subway.jpg');
+    background-image: url('/farroupilha-gourmet/img/subway.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 120%;
 }
 
 #xcalota {
-    background-image: url('/projeto-integrador/img/xcalotaecroasonho.jpg');
+    background-image: url('/farroupilha-gourmet/img/xcalotaecroasonho.jpg');
     background-repeat: no-repeat;
     background-position: 0% 10%;
     background-size: 100%;

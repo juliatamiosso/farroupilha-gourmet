@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    background-image: url('/projeto-integrador/img/churras.jpg');
+    background-image: url('/farroupilha-gourmet/img/churras.jpg');
     background-blend-mode: multiply;
     background-color: rgb(53, 50, 57);
     background-repeat: no-repeat;
@@ -254,7 +254,7 @@ main {
 }
 
 #choperiadoalemao {
-    background-image: url('/projeto-integrador/img/choperiadoalemao.jpg');
+    background-image: url('/farroupilha-gourmet/img/choperiadoalemao.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 160%;
@@ -262,7 +262,7 @@ main {
 }
 
 #rondacharrua {
-    background-image: url('/projeto-integrador/img/rondacharrua.jpg');
+    background-image: url('/farroupilha-gourmet/img/rondacharrua.jpg');
     background-repeat: no-repeat;
     background-position: 0% 50%;
     background-size: 120%;
@@ -270,14 +270,14 @@ main {
 }
 
 #quintaldaparrilla {
-    background-image: url('/projeto-integrador/img/quintaldaparrilla.jpg');
+    background-image: url('/farroupilha-gourmet/img/quintaldaparrilla.jpg');
     background-repeat: no-repeat;
     background-size: 120%;
     background-position: 80% 90%;
 }
 
 #bemmio {
-    background-image: url('/projeto-integrador/img/bemmiorestaurante.jpg');
+    background-image: url('/farroupilha-gourmet/img/bemmiorestaurante.jpg');
     background-repeat: no-repeat;
     background-position: 40% 100%;
     background-size: 170%;
@@ -287,7 +287,7 @@ main {
 }
 
 #dartora {
-    background-image: url('/projeto-integrador/img/dartora.jpg');
+    background-image: url('/farroupilha-gourmet/img/dartora.jpg');
     background-repeat: no-repeat;
     background-size: 150%;
     background-position: 30% 100%;

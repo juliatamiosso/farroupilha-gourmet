@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    background-image: url('/projeto-integrador/img/colonial.jpg');
+    background-image: url('/farroupilha-gourmet/img/colonial.jpg');
     background-blend-mode: multiply;
     background-color: rgb(53, 50, 57);
     background-repeat: no-repeat;
@@ -254,7 +254,7 @@ main {
 }
 
 #blauthbier {
-    background-image: url('/projeto-integrador/img/blauthbier.jpg');
+    background-image: url('/farroupilha-gourmet/img/blauthbier.jpg');
     background-repeat: no-repeat;
     background-size: 120%;
     background-position: center;
@@ -262,7 +262,7 @@ main {
 }
 
 #casaminaefiori {
-    background-image: url('/projeto-integrador/img/casaminaefiori.jpg');
+    background-image: url('/farroupilha-gourmet/img/casaminaefiori.jpg');
     background-repeat: no-repeat;
     background-size: 115%;
     background-position: 80% 0%;
@@ -272,14 +272,14 @@ main {
 }
 
 #beijaflor {
-    background-image: url('/projeto-integrador/img/beijaflor.jpg');
+    background-image: url('/farroupilha-gourmet/img/beijaflor.jpg');
     background-repeat: no-repeat;
     background-size: 150%;
     background-position: center;
 }
 
 #dartora {
-    background-image: url('/projeto-integrador/img/dartora.jpg');
+    background-image: url('/farroupilha-gourmet/img/dartora.jpg');
     background-repeat: no-repeat;
     background-size: 150%;
     background-position: 30% 100%;
@@ -287,7 +287,7 @@ main {
 }
 
 #brunetta {
-    background-image: url('/projeto-integrador/img/brunetta.jpg');
+    background-image: url('/farroupilha-gourmet/img/brunetta.jpg');
     background-repeat: no-repeat;
     background-size: 120%;
     background-position: center;
@@ -297,7 +297,7 @@ main {
 }
 
 #strapazzon {
-    background-image: url('/projeto-integrador/img/strapazzon.jpg');
+    background-image: url('/farroupilha-gourmet/img/strapazzon.jpg');
     background-repeat: no-repeat;
     background-size: 125%;
     background-position: 90% 50%;

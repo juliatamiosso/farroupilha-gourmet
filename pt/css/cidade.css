@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    background-image: url('/projeto-integrador/img/farroupilha.jpg');
+    background-image: url('/farroupilha-gourmet/img/farroupilha.jpg');
     background-blend-mode: multiply;
     background-color: rgb(53, 50, 57);
     background-repeat: no-repeat;
@@ -252,21 +252,21 @@ main {
 }
 
 #historia {
-    background-image: url('/projeto-integrador/img/farroupilhacidade.jpg');
+    background-image: url('/farroupilha-gourmet/img/farroupilhacidade.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0% 40%;
 }
 
 #imigracao {
-    background-image: url('/projeto-integrador/img/imigracao.jpg');
+    background-image: url('/farroupilha-gourmet/img/imigracao.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0% 75%;
 }
 
 #capitalmoscatel {
-    background-image: url('/projeto-integrador/img/parreiras.jpg');
+    background-image: url('/farroupilha-gourmet/img/parreiras.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0% 90%;

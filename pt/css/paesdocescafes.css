@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    background-image: url('/projeto-integrador/img/paesdocescafes.jpg');
+    background-image: url('/farroupilha-gourmet/img/paesdocescafes.jpg');
     background-blend-mode: multiply;
     background-color: rgb(53, 50, 57);
     background-repeat: no-repeat;
@@ -254,7 +254,7 @@ main {
 }
 
 #apreciatta {
-    background-image: url('/projeto-integrador/img/apreciatta.jpg');
+    background-image: url('/farroupilha-gourmet/img/apreciatta.jpg');
     background-repeat: no-repeat;
     background-position: 50% 0%;
     background-size: 130%;
@@ -262,14 +262,14 @@ main {
 }
 
 #armazemdodesvio {
-    background-image: url('/projeto-integrador/img/armazemdodesvio.jpg');
+    background-image: url('/farroupilha-gourmet/img/armazemdodesvio.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 125%;
 }
 
 #berola {
-    background-image: url('/projeto-integrador/img/berola.jpg');
+    background-image: url('/farroupilha-gourmet/img/berola.jpg');
     background-repeat: no-repeat;
     background-position: 0% 15%;
     background-size: 100%;
@@ -279,35 +279,35 @@ main {
 }
 
 #cafedajulio {
-    background-image: url('/projeto-integrador/img/cafedajulio.jpg');
+    background-image: url('/farroupilha-gourmet/img/cafedajulio.jpg');
     background-repeat: no-repeat;
     background-position: 0% 80%;
     background-size: 100%;
 }
 
 #trufasdatais {
-    background-image: url('/projeto-integrador/img/trufasdatais.jpg');
+    background-image: url('/farroupilha-gourmet/img/trufasdatais.jpg');
     background-repeat: no-repeat;
     background-position: 0% 0%;
     background-size: 130%;
 }
 
 #kidelizz {
-    background-image: url('/projeto-integrador/img/kidelizz.jpg');
+    background-image: url('/farroupilha-gourmet/img/kidelizz.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 130%;
 }
 
 #croasonho {
-    background-image: url('/projeto-integrador/img/xcalotaecroasonho.jpg');
+    background-image: url('/farroupilha-gourmet/img/xcalotaecroasonho.jpg');
     background-repeat: no-repeat;
     background-position: 0% 100%;
     background-size: 100%;
 }
 
 #domcafe {
-    background-image: url('/projeto-integrador/img/domcafe.jpg');
+    background-image: url('/farroupilha-gourmet/img/domcafe.jpg');
     background-repeat: no-repeat;
     background-position: 0% 50%;
     background-size: 100%;
@@ -315,21 +315,21 @@ main {
 }
 
 #merlini {
-    background-image: url('/projeto-integrador/img/merlini.jpg');
+    background-image: url('/farroupilha-gourmet/img/merlini.jpg');
     background-repeat: no-repeat;
     background-position: 0% 70%;
     background-size: 100%;
 }
 
 #sabordaserra {
-    background-image: url('/projeto-integrador/img/sabordaserra.jpg');
+    background-image: url('/farroupilha-gourmet/img/sabordaserra.jpg');
     background-repeat: no-repeat;
     background-position: 0% 0%;
     background-size: 110%;
 }
 
 #quierocafe {
-    background-image: url('/projeto-integrador/img/quierocafe.jpg');
+    background-image: url('/farroupilha-gourmet/img/quierocafe.jpg');
     background-repeat: no-repeat;
     background-size: 130%;
     background-position: center;

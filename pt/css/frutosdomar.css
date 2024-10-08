@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    background-image: url('/projeto-integrador/img/frutosdomar.jpg');
+    background-image: url('/farroupilha-gourmet/img/frutosdomar.jpg');
     background-blend-mode: multiply;
     background-color: rgb(53, 50, 57);
     background-repeat: no-repeat;
@@ -254,21 +254,21 @@ main {
 }
 
 #katsu {
-    background-image: url('/projeto-integrador/img/katsu.jpg');
+    background-image: url('/farroupilha-gourmet/img/katsu.jpg');
     background-repeat: no-repeat;
     background-size: 140%;
     background-position: center;
 }
 
 #yoodai {
-    background-image: url('/projeto-integrador/img/yoodai.jpg');
+    background-image: url('/farroupilha-gourmet/img/yoodai.jpg');
     background-repeat: no-repeat;
     background-size: 115%;
     background-position: center;
 }
 
 #yoshiro {
-    background-image: url('/projeto-integrador/img/yoshiro.jpg');
+    background-image: url('/farroupilha-gourmet/img/yoshiro.jpg');
     background-repeat: no-repeat;
     background-size: 150%;
     background-position: center;
