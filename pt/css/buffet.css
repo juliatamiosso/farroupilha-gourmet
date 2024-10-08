@@ -276,6 +276,13 @@ main {
     background-position: 0% 100%;
 }
 
+#merlini {
+    background-image: url('/farroupilha-gourmet/img/merlini.jpg');
+    background-repeat: no-repeat;
+    background-position: 0% 70%;
+    background-size: 100%;
+}
+
 #nonogiuseppe {
     background-image: url('/farroupilha-gourmet/img/nonogiuseppe.jpg');
     background-repeat: no-repeat;
