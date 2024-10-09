@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    background-image: url('/farroupilha-gourmet/img/pizza.jpg');
+    background-blend-mode: multiply;
+    background-color: rgb(53, 50, 57);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 30% 100%;
+    color: aliceblue;
+    background-size: 120%;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1800px;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Serif Pro';
+}
+
+.topo {
+    height: 3.5em;
+    align-items: center;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    width: 10em;
+    align-items: center;
+    height: 2em;
+    margin-top: 1.3em;
+}
+
+.conteudo ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 7em;
+}
+
+.linha-header-nav {
+    width: 99.9%;
+    height: 1px;
+    margin: 0;
+    border-width: 0;
+    background-color:rgba(151, 151, 151, 0.5);
+}
+
+nav {
+    height: 6.25em;
+}
+
+.navegue {
+    float: right;
+    margin-right: 4em;
+    margin-top: 2em;
+    width: 46em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo {
+    margin-left: 3em;
+    margin-top: 1em;
+    width: 4em;
+    display: inline-block;
+}
+
+.menu-item {
+    position: relative;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+
+.dropdown .submenu {
+    display: none;
+    position: absolute;
+    background-color: rgb(49, 57, 77);
+    padding: 10px;
+    list-style: none;
+    margin: 0;
+    border-radius: 4px;
+}
+
+.dropdown .submenu li {
+    margin: 5px 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+.dropdown .submenu li div {
+    width: 100%;
+    padding: 3px 7px; 
+    box-sizing: border-box;
+}
+
+.dropdown .submenu li:hover {
+    background-color: rgb(39, 45, 61);
+}
+
+.dropdown .submenu li a {
+    color: aliceblue;
+    text-decoration: none;
+    display: block; 
+}
+
+.dropdown.active .submenu {
+    display: block;
+    width: max-content;
+}
+
+.dropdown.active .menu-item::after {
+    content: " ▴";
+}
+
+.dropdown .menu-item::after {
+    content: " ▾";
+}
+
+.menu-item::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 2px;
+    background-color: rgb(43, 69, 126);
+    bottom: 0;
+    left: 0;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.menu-item:hover::before {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+#imgbandeira {
+    width: 1.5em;
+    border-radius: 3px;
+}
+
+main {
+    text-align: center;
+    height: 10em;
+}
+
+.titulo {
+    margin-top: 1em;
+    font-size: 3.5em;
+    font-weight: 600;
+}
+
+.principal {
+    background-color: rgb(245, 251, 255);
+    width: 100%;
+    height: max-content;
+    color: rgb(42, 40, 49);
+    padding-bottom: 2.5em;
+}
+
+.principal h2 {
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.principal p {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.linha-header-principal {
+    background-color: rgb(42, 40, 49); 
+    height: 5px;
+    border: 0;
+}
+
+
+/*CARDS RESTAURANTES*/
+.mostruario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.mostra-card {
+    width: 30%;
+    height: 12em;
+    border-radius: 16px;
+    color: rgb(245, 251, 255);
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    transition: transform 0.3s ease-in-out; 
+    position: relative;
+    background-blend-mode:soft-light;
+    background-color: rgba(45, 42, 48, 0.801);
+    padding: 4.5em 0;
+}
+
+.mostra-card p {
+    margin: 0;
+    text-shadow: rgb(40, 37, 43) 1px 0 10px;
+}
+
+.mostra-card:hover {
+    transform: scale(1.03);
+    position: relative; 
+    z-index: 1; 
+}
+
+.card-btn {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    border: 0;
+    height: 30px;
+    width: 7em;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+    font-size: 0.6em;
+    font-weight: 500;
+    background-color: rgb(75, 80, 129);
+    box-shadow: rgb(40, 37, 43) 1px 0 10px;
+    cursor: pointer;
+}
+
+.card-btn:hover {
+    background-color: rgb(69, 74, 117);
+}
+
+.card-btn:active {
+    background-color: rgb(66, 71, 112);
+}
+
+#katsu {
+    background-image: url('/farroupilha-gourmet/img/katsu.jpg');
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position: center;
+}
+
+#yoodai {
+    background-image: url('/farroupilha-gourmet/img/yoodai.jpg');
+    background-repeat: no-repeat;
+    background-size: 115%;
+    background-position: center;
+}
+
+#yoshiro {
+    background-image: url('/farroupilha-gourmet/img/yoshiro.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+}
+
+/*RODAPÉ*/
+
+#linhaheaderrodape {
+    margin: 0;
+    margin-top: -5px;
+}
+
+.rodape {
+    background-color: rgb(66, 71, 112);
+    height: 360px;
+    display: flex;
+    padding-top: 3em;
+    justify-content: center;
+}
+
+.logomarca {
+    display: inline-flex;
+    width: 400px;
+}
+
+.logomarca img {
+    width: 10em;
+}
+
+.nomerodape {
+    margin-top: 4.2em;
+    margin-left: 0.6em;
+}
+
+.nomerodape h1 {
+    font-weight: 600;
+    font-size: 2.3em;
+}
+
+.rodape p {
+    margin-top: 1em;
+    font-size: 0.9em;
+}
+
+.inside {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 800px;
+}
+
+.inside ul {
+    display:inline-table;
+    line-height: 1.7;
+}
+
+.inside a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.inside a:hover {
+    color: rgb(213, 217, 219);
+}
+
+.inside .bold {
+    font-weight: bold;
+}
