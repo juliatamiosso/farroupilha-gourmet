@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 body {
-    background-image: url('/farroupilha-gourmet/img/pizza.jpg');
+    background-image: url('/farroupilha-gourmet/img/sorveterias.jpg');
     background-blend-mode: multiply;
     background-color: rgb(53, 50, 57);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: 0% 70%;
+    background-position: 0% 50%;
     color: aliceblue;
     background-size: 100%;
     font-family: 'Roboto', sans-serif;
@@ -253,55 +253,45 @@ main {
     background-color: rgb(66, 71, 112);
 }
 
-#alcapone {
-    background-image: url('/farroupilha-gourmet/img/alcapone.jpg');
-    background-repeat: no-repeat;
-    background-size: 170%;
-    background-position: center;
-    padding-top: 3.5em;
-    padding-right: 1em;
-    padding-left: 1em;
-}
-
-#famigliagasperin {
-    background-image: url('/farroupilha-gourmet/img/famigliagasperin.jpg');
-    background-repeat: no-repeat;
-    background-size: 140%;
-    background-position: 100% 20%;
-    padding-top: 3.5em;
-    padding-right: 1em;
-    padding-left: 1em;
-}
-
-#farrapizzaburger {
-    background-image: url('/farroupilha-gourmet/img/farrapizzaburger.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 110%;
-}
-
-#colombo {
-    background-image: url('/farroupilha-gourmet/img/colombo.jpg');
+#acaitropical {
+    background-image: url('/farroupilha-gourmet/img/acaitropical.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 0% 70%;
+    background-position: 0% 0%;
 }
 
-#moradadosabor {
-    background-image: url('/farroupilha-gourmet/img/moradadosabor.jpg');
+#degustare {
+    background-image: url('/farroupilha-gourmet/img/degustare.jpg');
     background-repeat: no-repeat;
+    background-position: 0% 40%;
     background-size: 100%;
-    background-position: 0% 50%;
     padding-top: 3.5em;
     padding-right: 1em;
     padding-left: 1em;
 }
 
-#rota453 {
-    background-image: url('/farroupilha-gourmet/img/rota453.jpg');
+#caliero {
+    background-image: url('/farroupilha-gourmet/img/caliero.jpg');
     background-repeat: no-repeat;
-    background-size: 120%;
-    background-position: center;
+    background-position: 0% 0%;
+    background-size: 100%;
+    padding-top: 3.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#kisol {
+    background-image: url('/farroupilha-gourmet/img/kisol.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 0%;
+}
+
+#thebest {
+    background-image: url('/farroupilha-gourmet/img/thebest.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0% 0%;
 }
 
 /*RODAPÉ*/
