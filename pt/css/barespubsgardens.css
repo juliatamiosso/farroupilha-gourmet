@@ -7,7 +7,7 @@ body {
     background-color: rgb(53, 50, 57);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: bottom 50px left 0px;
+    background-position: 0% 80%;
     color: aliceblue;
     background-size: 100%;
     font-family: 'Roboto', sans-serif;
@@ -253,55 +253,73 @@ main {
     background-color: rgb(66, 71, 112);
 }
 
-#buttelinho {
-    background-image: url('/farroupilha-gourmet/img/buttelinho.jpg');
+#blauthbier {
+    background-image: url('/farroupilha-gourmet/img/blauthbier.jpg');
     background-repeat: no-repeat;
-    background-size: 140%;
-}
-
-#labelle {
-    background-image: url('/farroupilha-gourmet/img/labelle.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: bottom 0px right 0px;
-    padding-top: 3.5em; /*Se nome ocupa duas linhas*/
-}
-
-#lavecchia {
-    background-image: url('/farroupilha-gourmet/img/lavecchia.jpg');
-    background-repeat: no-repeat;
-    background-size: 130%;
-    background-position: right 0px;    
-}
-
-#mangiabene {
-    background-image: url('/farroupilha-gourmet/img/mangiabene.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-#quierocafe {
-    background-image: url('/farroupilha-gourmet/img/quierocafe.jpg');
-    background-repeat: no-repeat;
-    background-size: 130%;
+    background-size: 120%;
     background-position: center;
-}
-
-#antonielle {
-    background-image: url('/farroupilha-gourmet/img/antonielle.jpg');
-    background-repeat: no-repeat;
-    background-size: 115%;
-    background-position: bottom 0px right 0px;
     padding-top: 3.5em;
 }
 
-#ristoria {
-    background-image: url('/farroupilha-gourmet/img/ristoria.jpg');
+#choperiadoalemao {
+    background-image: url('/farroupilha-gourmet/img/choperiadoalemao.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 160%;
+    padding-top: 3.5em;
+}
+
+#deck256 {
+    background-image: url('/farroupilha-gourmet/img/deck256.jpg');
     background-repeat: no-repeat;
     background-size: 130%;
     background-position: center;
 }
 
+#elviajero {
+    background-image: url('/farroupilha-gourmet/img/elviajero.jpg');
+    background-repeat: no-repeat;
+    background-position: 90% 0%;
+    background-size: 125%;
+    padding-top: 3.5em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#estacaonovavicenza {
+    background-image: url('/farroupilha-gourmet/img/estacaonovavicenza.jpg');
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: 90% 0%;
+}
+
+#farrapizzaburger {
+    background-image: url('/farroupilha-gourmet/img/farrapizzaburger.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 110%;
+}
+
+#gambito {
+    background-image: url('/farroupilha-gourmet/img/gambito.jpg');
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: center;
+}
+
+#ironbeer {
+    background-image: url('/farroupilha-gourmet/img/ironbeer.jpg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+}
+
+#stonehall {
+    background-image: url('/farroupilha-gourmet/img/stonehall.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: center;
+}
 
 /*RODAPÉ*/
 
