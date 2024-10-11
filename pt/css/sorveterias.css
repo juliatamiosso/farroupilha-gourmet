@@ -257,7 +257,7 @@ main {
     background-image: url('/farroupilha-gourmet/img/acaitropical.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 0% 0%;
+    background-position: 0% 60%;
 }
 
 #degustare {
@@ -273,7 +273,7 @@ main {
 #caliero {
     background-image: url('/farroupilha-gourmet/img/caliero.jpg');
     background-repeat: no-repeat;
-    background-position: 0% 0%;
+    background-position: 0% 20%;
     background-size: 100%;
     padding-top: 3.5em;
     padding-right: 1em;
@@ -284,14 +284,14 @@ main {
     background-image: url('/farroupilha-gourmet/img/kisol.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 0% 0%;
+    background-position: 0% 30%;
 }
 
 #thebest {
     background-image: url('/farroupilha-gourmet/img/thebest.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 0% 0%;
+    background-position: 0% 50%;
 }
 
 /*RODAPÉ*/
