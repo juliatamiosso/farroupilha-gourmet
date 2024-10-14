@@ -103,7 +103,7 @@
             <div class="container justify-content-center">
                 <div class="col-md-9" style="justify-content: center; align-items: center; margin: 0 auto;">
                     <div class="input-group mb-3">
-                        <input type="text" id="searchInput" class="form-control input-text" placeholder="Busque por um restaurante..." onkeyup="searchRestaurants()" onkeydown="preventEnter(event)" style="padding: 10px;">
+                        <input type="text" id="searchInput" class="form-control input-text" placeholder="Busque por um estabelecimento..." onkeyup="searchRestaurants()" onkeydown="preventEnter(event)" style="padding: 10px;">
                     </div>
                     <ul id="suggestionsList" class="list-group"></ul>
                 </div>
@@ -192,11 +192,83 @@
         });
 
         const restaurants = [
-            { name: "Restaurante Caminho do Trem", url: "/farroupilha-gourmet/pt/buffet/caminhodotrem.html" },
-            { name: "Chapão Bem Mió", url: "/farroupilha-gourmet/pt/churrasco/bemmio.html" },
-            { name: "Pizza e Grill", url: "/farroupilha-gourmet/pt/pizzarias/pizzaegrill.html" },
-            { name: "Sorveteria Gelato", url: "/farroupilha-gourmet/pt/sorveterias/gelato.html" },
-            // Adicione mais restaurantes aqui
+            // À La Carte
+        { name: "Buttelinho Restaurante", url: "/farroupilha-gourmet/pt/alacarte/buttelinho.html" },
+        { name: "La Belle Restaurante e Bistrô", url: "/farroupilha-gourmet/pt/alacarte/labelle.html" },
+        { name: "La Vecchia Trattoria", url: "/farroupilha-gourmet/pt/alacarte/lavecchiatrattoria.html" },
+        { name: "Mangia Bene", url: "/farroupilha-gourmet/pt/alacarte/mangiabene.html" },
+        { name: "Quiero Café", url: "/farroupilha-gourmet/pt/alacarte/quierocafe.html" },
+        { name: "Restaurante Chef Antonielle", url: "/farroupilha-gourmet/pt/alacarte/antonielle.html" },
+        { name: "Ristoria", url: "/farroupilha-gourmet/pt/alacarte/ristoria.html" },
+            // Buffet
+        { name: "Choperia e Rodízio de Bifes do Alemão", url: "/farroupilha-gourmet/pt/buffet/choperiadoalemao.html" },
+        { name: "Galeto Feltrin", url: "/farroupilha-gourmet/pt/buffet/galetofeltrin.html" },
+        { name: "Nono Giuseppe", url: "/farroupilha-gourmet/pt/buffet/nonogiuseppe.html" },
+        { name: "Restaurante Caminho do Trem", url: "/farroupilha-gourmet/pt/buffet/caminhodotrem.html" },
+        { name: "Restaurante Dimora Del Gusto", url: "/farroupilha-gourmet/pt/buffet/dimoradelgusto.html" },
+        { name: "Restaurante Don Honório Augusto", url: "/farroupilha-gourmet/pt/buffet/donhonorioaugusto.html" },
+        { name: "Restaurante Mangini's", url: "/farroupilha-gourmet/pt/buffet/manginis.html" },
+        { name: "Restaurante Stefenon", url: "/farroupilha-gourmet/pt/buffet/stefenon.html" },
+            // Churrasco
+        { name: "Churrascaria Ronda Charrua", url: "/farroupilha-gourmet/pt/churrasco/rondacharrua.html" },
+        { name: "Quintal Da Parrilla", url: "/farroupilha-gourmet/pt/churrasco/quintaldaparrilla.html" },
+        { name: "Restaurante Chapão Bem Mió", url: "/farroupilha-gourmet/pt/churrasco/bemmio.html" },
+        { name: "Restaurante e Churrascaria Dartora", url: "/farroupilha-gourmet/pt/churrasco/dartora.html" },
+            // Colonial
+        { name: "Blauth Bier - Cervejaria e Complexo Gastronômico", url: "/farroupilha-gourmet/pt/colonial/blauthbier.html" },
+        { name: "Casa Mina & Fióri - Café e Restaurante", url: "/farroupilha-gourmet/pt/colonial/casaminaefiori.html" },
+        { name: "Restaurante Beija Flor", url: "/farroupilha-gourmet/pt/colonial/beijaflor.html" },
+        { name: "Restaurante Família Brunetta", url: "/farroupilha-gourmet/pt/colonial/brunetta.html" },
+        { name: "Restaurante Família Strapazzon", url: "/farroupilha-gourmet/pt/colonial/strapazzon.html" },
+            // Frutos do mar
+        { name: "Katsu Sushi Bar", url: "/farroupilha-gourmet/pt/frutosdomar/katsu.html" },
+        { name: "Yoodai Sushi Bar", url: "/farroupilha-gourmet/pt/frutosdomar/yoodai.html" },
+        { name: "Yoshiro Sushi Bar", url: "/farroupilha-gourmet/pt/frutosdomar/yoshiro.html" },
+            // Lancherias
+        { name: "American Burger", url: "/farroupilha-gourmet/pt/lancherias/americanburger.html" },
+        { name: "Degustare Lanches e Açaí", url: "/farroupilha-gourmet/pt/lancherias/degustare.html" },
+        { name: "El Viajero Hamburgueria e Pub", url: "/farroupilha-gourmet/pt/lancherias/elviajero.html" },
+        { name: "Farra Pizza Burger", url: "/farroupilha-gourmet/pt/lancherias/farrapizzaburger.html" },
+        { name: "Hamburgueria Barretos", url: "/farroupilha-gourmet/pt/lancherias/barretos.html" },
+        { name: "Kikão Lanches", url: "/farroupilha-gourmet/pt/lancherias/kikao.html" },
+        { name: "Subway", url: "/farroupilha-gourmet/pt/lancherias/subway.html" },
+        { name: "X Calota", url: "/farroupilha-gourmet/pt/lancherias/xcalota.html" },
+            // Pães, doces e cafés
+        { name: "Apreciatta Padaria e Confeitaria", url: "/farroupilha-gourmet/pt/paesdocescafes/apreciatta.html" },
+        { name: "Armazém do Desvio", url: "/farroupilha-gourmet/pt/paesdocescafes/armazemdodesvio.html" },
+        { name: "Berola Doces de Pelotas Cafeteria", url: "/farroupilha-gourmet/pt/paesdocescafes/berola.html" },
+        { name: "Café da Júlio", url: "/farroupilha-gourmet/pt/paesdocescafes/cafedajulio.html" },
+        { name: "Café Trufas da Taís", url: "/farroupilha-gourmet/pt/paesdocescafes/trufasdatais.html" },
+        { name: "Confeitaria Kidelizz", url: "/farroupilha-gourmet/pt/paesdocescafes/kidelizz.html" },
+        { name: "Croasonho", url: "/farroupilha-gourmet/pt/paesdocescafes/croasonho.html" },
+        { name: "Dom Café & Especialidades", url: "/farroupilha-gourmet/pt/paesdocescafes/domcafe.html" },
+        { name: "Merlini Caffè e Pub", url: "/farroupilha-gourmet/pt/paesdocescafes/merlini.html" },
+        { name: "Padaria Sabor da Serra", url: "/farroupilha-gourmet/pt/paesdocescafes/sabordaserra.html" },
+            // Pizzarias
+        { name: "Al Capone Pizza Di Mafia", url: "/farroupilha-gourmet/pt/pizzarias/alcapone.html" },
+        { name: "Famiglia Gasperin Pizzaria", url: "/farroupilha-gourmet/pt/pizzarias/famigliagasperin.html" },
+        { name: "Pizzaria Colombo", url: "/farroupilha-gourmet/pt/pizzarias/colombo.html" },
+        { name: "Pizzaria Morada do Sabor", url: "/farroupilha-gourmet/pt/pizzarias/moradadosabor.html" },
+        { name: "Pizzaria Rota 453", url: "/farroupilha-gourmet/pt/pizzarias/rota453.html" },
+            // Sorveterias
+        { name: "Açaí Tropical", url: "/farroupilha-gourmet/pt/sorveterias/acaitropical.html" },
+        { name: "Sorveteria Caliero Express", url: "/farroupilha-gourmet/pt/sorveterias/caliero.html" },
+        { name: "Sorveteria Ki-Sol", url: "/farroupilha-gourmet/pt/sorveterias/kisol.html" },
+        { name: "The Best Açaí", url: "/farroupilha-gourmet/pt/sorveterias/thebestacai.html" },
+            // Bares, pubs e gardens
+        { name: "Deck256", url: "/farroupilha-gourmet/pt/barespubsgardens/deck256.html" },
+        { name: "Estação Nova Vicenza Gastropub", url: "/farroupilha-gourmet/pt/barespubsgardens/estacaonovavicenza.html" },
+        { name: "Gambito Bar", url: "/farroupilha-gourmet/pt/barespubsgardens/gambito.html" },
+        { name: "Iron Beer Pub", url: "/farroupilha-gourmet/pt/barespubsgardens/ironbeer.html" },
+        { name: "Stone Hall Garden", url: "/farroupilha-gourmet/pt/barespubsgardens/stonehall.html" },
+            // Bares, pubs e gardens
+        { name: "Adega Chesini", url: "/farroupilha-gourmet/pt/vinicolasadegas/adegachesini.html" },
+        { name: "Cave Antiga Taffarel", url: "/farroupilha-gourmet/pt/vinicolasadegas/caveantiga.html" },
+        { name: "Cooperativa Vinícola São João", url: "/farroupilha-gourmet/pt/vinicolasadegas/cooperativasaojoao.html" },
+        { name: "Vinícola Basso", url: "/farroupilha-gourmet/pt/vinicolasadegas/vinicolabasso.html" },
+        { name: "Vinícola Cappelletti", url: "/farroupilha-gourmet/pt/vinicolasadegas/vinicolacappelletti.html" },
+        { name: "Vinícola De Cezaro", url: "/farroupilha-gourmet/pt/vinicolasadegas/vinicoladecezaro.html" },
+        { name: "Vinícola Casa Perini", url: "/farroupilha-gourmet/pt/vinicolasadegas/casaperini.html" },
         ];
 
         function searchRestaurants() {
@@ -207,7 +279,9 @@
             suggestionsList.innerHTML = '';
             
             if (input) {
-                const filteredRestaurants = restaurants.filter(restaurant => restaurant.name.toLowerCase().includes(input));
+                const filteredRestaurants = restaurants.filter(restaurant => restaurant.name.toLowerCase().includes(input)); // filtrar resultados com base na entrada do usuário
+                
+                filteredRestaurants.sort((a, b) => a.name.localeCompare(b.name)); // ordem alfabética
                 
                 if (filteredRestaurants.length > 0) {
                     suggestionsList.style.display = 'block';
