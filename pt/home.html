@@ -99,22 +99,19 @@
         <h2>Embarque em uma aventura gastronômica!</h2>
         <br>
         <p>O que você procura hoje?</p>
-        <form>
-        <div class="container justify-content-center">
-            <div class="row">
-               <div class="col-md-12">
-                   <div class="input-group mb-3">
-                        <input type="text" class="form-control input-text" placeholder="Digite aqui..." aria-label="Recipient's username" aria-describedby="basic-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-outline-secondary btn-lg" type="submit"><i class="fa fa-search"></i></button>
-                        </div>
-                    </div>  
-               </div>           
-            </div> 
-        </div>
-        </form>
+        <form onsubmit="return false;">
+            <div class="container justify-content-center">
+                <div class="col-md-9" style="justify-content: center; align-items: center; margin: 0 auto;">
+                    <div class="input-group mb-3">
+                        <input type="text" id="searchInput" class="form-control input-text" placeholder="Busque por um restaurante..." onkeyup="searchRestaurants()" onkeydown="preventEnter(event)" style="padding: 10px;">
+                    </div>
+                    <ul id="suggestionsList" class="list-group"></ul>
+                </div>
+            </div>
+        </form>        
+        
         <br>
-        <hr class="linha-header-principal">
+        <hr class="linha-header-principal" style="z-index: 900;">
     </div>
     <div class="moscatel">
         <div class="secoesmoscatel">
@@ -193,6 +190,50 @@
                 });
             });
         });
+
+        const restaurants = [
+            { name: "Restaurante Caminho do Trem", url: "/farroupilha-gourmet/pt/buffet/caminhodotrem.html" },
+            { name: "Chapão Bem Mió", url: "/farroupilha-gourmet/pt/churrasco/bemmio.html" },
+            { name: "Pizza e Grill", url: "/farroupilha-gourmet/pt/pizzarias/pizzaegrill.html" },
+            { name: "Sorveteria Gelato", url: "/farroupilha-gourmet/pt/sorveterias/gelato.html" },
+            // Adicione mais restaurantes aqui
+        ];
+
+        function searchRestaurants() {
+            const input = document.getElementById('searchInput').value.toLowerCase();
+            const suggestionsList = document.getElementById('suggestionsList');
+            
+            // Limpar sugestões anteriores
+            suggestionsList.innerHTML = '';
+            
+            if (input) {
+                const filteredRestaurants = restaurants.filter(restaurant => restaurant.name.toLowerCase().includes(input));
+                
+                if (filteredRestaurants.length > 0) {
+                    suggestionsList.style.display = 'block';
+                    filteredRestaurants.forEach(restaurant => {
+                        const li = document.createElement('li');
+                        li.textContent = restaurant.name;
+                        li.onclick = () => {
+                            window.location.href = restaurant.url;
+                        };
+                        suggestionsList.appendChild(li);
+                    });
+                } else {
+                    suggestionsList.style.display = 'none';
+                }
+            } else {
+                suggestionsList.style.display = 'none';
+            }
+        }
+
+        function preventEnter(event) {
+            if (event.key === "Enter") {
+                event.preventDefault();
+            }
+        }
+
+
     </script>
 </body>
 </html>
