@@ -110,6 +110,7 @@ main {
     height: max-content;
     margin: 0 auto;
     padding-bottom: 1.5em;
+    margin-bottom: 0.7em;
 }
 
 h2 {
@@ -137,7 +138,7 @@ h2 {
 }
 
 .formulario {
-    border: solid 2px rgba(94, 101, 163, 0.411);
+    border: solid 1.5px rgba(94, 101, 163, 0.411);
     border-radius: 12px;
     padding: 1em;
 }
@@ -173,9 +174,18 @@ h2 {
 .infocat, .infocomtur {
     width: max-content;
     height: max-content;
-    border: solid 2px rgba(94, 101, 163, 0.411);
+    border: solid 1.5px rgba(94, 101, 163, 0.411);
     border-radius: 12px;
     padding: 1em;
+    padding-bottom: 0.5em;
+}
+
+.linkemail {
+    color: rgb(42, 40, 49);
+}
+
+.linkemail:hover {
+    color: rgb(99, 99, 105);
 }
 
 /*RODAPÉ*/

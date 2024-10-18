@@ -38,15 +38,15 @@
                     <h5>Conselho Municipal de Turismo (COMTUR) - Prefeitura</h5>
                     <p style="margin-top: 1em;"><span>Endereço:</span> Praça da Emancipação, s/n - Centro, Farroupilha</p>
                     <p><span>Telefone:</span> (54) 2131-5308</p>
-                    <p><span>E-mail:</span> turismo@farroupilha.rs.gov.br</p>
-                    <p><span>Atendimento:</span> Segunda a sexta, 09:00–16:00</p>
+                    <p><span>E-mail:</span> <a class="linkemail" href="mailto:turismo@farroupilha.rs.gov.br">turismo@farroupilha.rs.gov.br</a></p>
+                    <p><span>Atendimento:</span> Segunda a sexta, 9h às 16h</p>
                 </div>
                 <div class="infocat">
                     <h5>Centro de Atenção ao Turista (CAT) - Casa da Cultura</h5>
                     <p style="margin-top: 1em;"><span>Endereço:</span> Rua da República, 172 - Centro, Farroupilha</p>
                     <p><span>Telefone:</span> (54) 3261-6995</p>
-                    <p><span>E-mail:</span> casadecultura@farroupilha.rs.gov.br</p>
-                    <p><span>Atendimento:</span> Segunda a sexta, 08:00–12:00 e 13:00–17:00</p>
+                    <p><span>E-mail:</span> <a class="linkemail" href="mailto:casadecultura@farroupilha.rs.gov.br">casadecultura@farroupilha.rs.gov.br</a></p>
+                    <p><span>Atendimento:</span> Segunda a sexta, 8h às 12h e 13h às 17h</p>
                 </div>
             </div>     
         </div>
