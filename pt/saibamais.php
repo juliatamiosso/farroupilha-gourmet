@@ -30,12 +30,31 @@
     <div class="principal">
         <hr class="linha-header-principal">
         <br>
-
+        <div class="textoinfos">
+            <h2>Informações turísticas</h2>
+            <p class="paragrafo">Saiba onde obter informações presenciais sobre o turismo em Farroupilha:</p>
+            <div class="informacoes">
+                <div class="infocomtur">
+                    <h5>Conselho Municipal de Turismo (COMTUR) - Prefeitura</h5>
+                    <p style="margin-top: 1em;"><span>Endereço:</span> Praça da Emancipação, s/n - Centro, Farroupilha</p>
+                    <p><span>Telefone:</span> (54) 2131-5308</p>
+                    <p><span>E-mail:</span> turismo@farroupilha.rs.gov.br</p>
+                    <p><span>Atendimento:</span> Segunda a sexta, 09:00–16:00</p>
+                </div>
+                <div class="infocat">
+                    <h5>Centro de Atenção ao Turista (CAT) - Casa da Cultura</h5>
+                    <p style="margin-top: 1em;"><span>Endereço:</span> Rua da República, 172 - Centro, Farroupilha</p>
+                    <p><span>Telefone:</span> (54) 3261-6995</p>
+                    <p><span>E-mail:</span> casadecultura@farroupilha.rs.gov.br</p>
+                    <p><span>Atendimento:</span> Segunda a sexta, 08:00–12:00 e 13:00–17:00</p>
+                </div>
+            </div>     
+        </div>
+        <br>
         <div class="divformulario">
             <h2>Entre em contato</h2>
             <p>Sua opinião é muito importante! Deixe um comentário, sugira uma alteração, mande uma dúvida...</p>
-
-            <form action="../dao/criaMensagemPT.php" method="post" style="width: 73%; margin: 0 auto;">
+            <form action="../dao/criaMensagemPT.php" method="post" style="width: 75%; margin: 0 auto;">
                 <div class="formulario">
                     <div class="row mb-3">
                         <div class="col-md-7">
@@ -55,7 +74,6 @@
                 </div>
             </form>
         </div>
-
 
     </div>
     <hr class="linha-header-principal" id="linhaheaderrodape">

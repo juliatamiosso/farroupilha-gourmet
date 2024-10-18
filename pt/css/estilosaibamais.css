@@ -112,8 +112,10 @@ main {
     padding-bottom: 1.5em;
 }
 
-.divformulario h2 {
+h2 {
+    text-align: center;
     font-weight: 600;
+    color: rgb(69, 74, 117);
 }
 
 .divformulario p {
@@ -135,10 +137,45 @@ main {
 }
 
 .formulario {
-    border: solid 2px rgba(75, 80, 129, 0.411);
+    border: solid 2px rgba(94, 101, 163, 0.411);
     border-radius: 12px;
     padding: 1em;
-    background-color: rgba(75, 80, 129, 0.041);
+}
+
+.textoinfos {
+    width: 80%;
+    height: max-content;
+    margin: 0 auto;
+    padding-bottom: 1.5em;
+    line-height: 1.1;
+}
+
+.textoinfos .paragrafo {
+    text-align: center;
+}
+
+.textoinfos span {
+    font-weight: 500;
+}
+
+.textoinfos h5 {
+    font-weight: 600;
+    color: rgb(69, 74, 117);
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 1em;
+}
+
+.infocat, .infocomtur {
+    width: max-content;
+    height: max-content;
+    border: solid 2px rgba(94, 101, 163, 0.411);
+    border-radius: 12px;
+    padding: 1em;
 }
 
 /*RODAPÉ*/
