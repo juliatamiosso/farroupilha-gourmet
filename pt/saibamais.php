@@ -70,7 +70,7 @@
                     <div class="form-group mb-3">
                         <textarea class="form-control" id="exampleFormControlTextarea1" name="mensagem" rows="4" placeholder="Digite sua mensagem..." required oninvalid="this.setCustomValidity('Digite sua mensagem.')" oninput="this.setCustomValidity('')"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                    <button type="submit">Enviar</button>
                 </div>
             </form>
         </div>
