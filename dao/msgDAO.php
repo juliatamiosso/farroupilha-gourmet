@@ -16,4 +16,19 @@ function novaMensagemPT($nome_nova_mensagem_PT, $telefone_nova_mensagem_PT, $ema
     $statement->execute();
 }
 
+function novaMensagemESP($nome_nova_mensagem_ESP, $telefone_nova_mensagem_ESP, $email_nova_mensagem_ESP, $nova_mensagem_ESP) {
+    $conexao = criaConexao();
+
+    $insert_mensagens = "INSERT INTO msgESP (nomeESP, telefoneESP, emailESP, mensagemESP) VALUES (:nomeESP, :telefoneESP, :emailESP, :mensagemESP)";
+
+    $statement = $conexao->prepare($insert_mensagens);
+
+    $statement->bindValue(":nomeESP", $nome_nova_mensagem_ESP);
+    $statement->bindValue(":telefoneESP", $telefone_nova_mensagem_ESP);
+    $statement->bindValue(":emailESP", $email_nova_mensagem_ESP);
+    $statement->bindValue(":mensagemESP", $nova_mensagem_ESP);
+
+    $statement->execute();
+}
+
 ?>
