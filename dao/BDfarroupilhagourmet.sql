@@ -18,7 +18,16 @@ create table if not exists msgESP (
     mensagemESP varchar(500)
 );
 
+create table if not exists msgENG (
+	id_mensagemENG int not null PRIMARY KEY auto_increment,
+    nomeENG varchar(100),
+    telefoneENG varchar(50),
+    emailENG varchar(100),
+    mensagemENG varchar(500)
+);
+
 select * from msgPT;
 select * from msgESP;
+select * from msgENG;
 
 /*ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';*/
